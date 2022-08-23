@@ -1,0 +1,75 @@
+
+body {
+    background-color: #ccd5ae;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 3px;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border-bottom: 1.5px solid #ccd5ae;
+}
+
+.section-artist {
+    display: flex;
+    padding: 5px 10px;
+    margin-top: 5px;
+}
+
+footer {
+    margin-left: 10px;
+    padding-bottom: 3px;
+}
+
+#logo-img {
+    width: 150px;
+}
+
+#user-img {
+    width: 70px;
+    border-radius: 50px;
+}
+
+.artist-avatar {
+    width: 70px;
+    border-radius: 50px;
+}
+
+.artist-info {
+    margin-left: 8px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+#artist-jpg {
+    width: 400px;
+    margin: 18px 0;
+}
+
+.icon-png {
+    margin-left: 8px;
+    width: 25px;
+}
+
+.icon-png:hover {
+    width: 26px;
+}
+
+.icon-png:active {
+    width: 26px;
+    opacity: 0.7;
+}
+
+.post-between-space {
+    margin-top: 15px;
+}
